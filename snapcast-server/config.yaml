@@ -12,6 +12,7 @@ arch:
   - armv7
   - i386
 host_network: true
+webui: http://[HOST]:[PORT:1780]
 map: ["share:rw"]
 audio: true
 init: false
@@ -44,4 +45,9 @@ ports:
   1705/tcp: 1705
   1780/tcp: 1780
   4953/tcp: 4953
+ports_description:
+  1704/tcp: Client connection port
+  1705/tcp: Client connection port
+  1780/tcp: Web Interface Port
+  4953/tcp: Tcp stream port
 image: "ghcr.io/spiro-c/{arch}-addon-snapserver"
