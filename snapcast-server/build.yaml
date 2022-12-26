@@ -12,4 +12,4 @@ labels:
   org.opencontainers.image.licenses: "MIT"
 codenotary:
   base_image: notary@home-assistant.io
-  signer: spiroc@gmail.com
+  signer: notary@home-assistant.io
