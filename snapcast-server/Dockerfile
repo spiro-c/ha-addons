@@ -34,3 +34,5 @@ RUN \
 
 #Install snapcast
 RUN sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories && apk add --no-cache snapcast bash
+
+COPY rootfs /
