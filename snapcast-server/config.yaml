@@ -2,7 +2,7 @@
 name: snapcast-server
 version: 0.26.0
 slug: snapserver
-description: Create a snapcast server
+description: Snapcast Server Add-on
 codenotary: spiroc@gmail.com
 url: https://github.com/spiro-c/ha-addons/
 arch:
