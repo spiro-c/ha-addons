@@ -10,4 +10,6 @@ labels:
   org.opencontainers.image.description: "Snapcast server Add-on."
   org.opencontainers.image.source: "https://github.com/spiro-c/ha-addons"
   org.opencontainers.image.licenses: "MIT"
-
+codenotary:
+  signer: spiroc@gmail.com
+  base_image: notary@home-assistant.io

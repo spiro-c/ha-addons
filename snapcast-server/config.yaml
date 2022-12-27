@@ -3,6 +3,7 @@ name: snapcast-server
 version: 0.26.0
 slug: snapserver
 description: Create a snapcast server
+codenotary: spiroc@gmail.com
 url: https://github.com/spiro-c/ha-addons/
 arch:
   - aarch64
@@ -16,7 +17,7 @@ map: ["share:rw"]
 audio: true
 init: false
 options:
-  streams: "source = spotify:///librespot?name=Spotify&bitrate=320"
+  streams: "source = spotify:///librespot?name=Spotify&bitrate=320&devicename=HASnapcast"
   buffer: 1000
   codec: "flac"
   send_to_muted: "false"
