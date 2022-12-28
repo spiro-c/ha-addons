@@ -14,10 +14,4 @@ bashio::log.info "Starting SnapClient..."
 if bashio::config.has_value 'host'; then
     options+=(-h "$(bashio::config 'host')")
 fi
-if bashio::config.has_value 'port'; then
-    options+=(-p "$(bashio::config 'port')")
-fi
-if bashio::config.has_value 'sampleformat'; then
-    options+=(--sampleformat "$(bashio::config 'sampleformat')")
-fi
 exec snapclient "${options[@]}"

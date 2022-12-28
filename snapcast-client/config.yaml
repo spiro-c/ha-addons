@@ -15,9 +15,6 @@ audio: true
 init: false
 options:
   host: snapserver
-
 schema:
   host: str
-  port: port
-  sampleformat: str
 image: "ghcr.io/spiro-c/{arch}-addon-snapclient"
